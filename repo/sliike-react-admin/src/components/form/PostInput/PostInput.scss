@@ -1,0 +1,48 @@
+#post-input-container {
+  .radio-container {
+    border-bottom: 1px solid #E7E7E7;
+  }
+
+  .gist-input {
+    position: relative;
+
+    .emoji {
+      position: absolute;
+      left: 16px;
+      top: 13px;
+    }
+
+    input {
+      width: 100%;
+      background: #FFFFFF;
+      border-radius: 5px;
+      color: #707070;
+      font-size: 15px;
+      font-weight: 500;
+      height: 50px;
+      border: 1px solid #CFCFCF;
+      padding: 0px 10px 0px 56px;
+
+      &:hover {
+        outline: none;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    ::placeholder {
+      color: #a0a0a0;
+      /* Firefox */
+    }
+
+    :-ms-input-placeholder {
+      color: #b7b7b7;
+    }
+
+    ::-ms-input-placeholder {
+      color: #b7b7b7;
+    }
+  }
+}

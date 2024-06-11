@@ -1,0 +1,125 @@
+#gist-details-container {
+  .gist-detail-block {
+    height: 80vh;
+    overflow: auto;
+  }
+
+  .audio-play {
+    width: 100%;
+    height: 40px;
+  }
+
+  .post-list {
+    height: 100%;
+    overflow: auto;
+    margin-top: 10px;
+
+    .no-response-data {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 20px;
+      margin-top: 50px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .chat-item {
+      display: flex;
+      gap: 24px;
+      border-bottom: 1px solid #cfcfcf;
+      padding-bottom: 16px;
+      margin-top: 24px;
+
+      .profile-message-block {
+        width: 100%;
+        display: flex;
+        gap: 16px;
+
+        .profile-block {
+          height: 50px;
+          min-width: 50px;
+          border-radius: 50%;
+          background-color: var(--dashboard-primary);
+        }
+
+        .message-content {
+          width: 100%;
+        }
+
+        .audio-block {
+          background: #f3f3f3;
+          border-radius: 2px 20px;
+          padding: 16px 11px 11px 16px;
+
+          .audio-play {
+            width: 100%;
+            height: 40px;
+          }
+        }
+
+        .message-block {
+          background: #f3f3f3;
+          border-radius: 2px 20px;
+          padding: 16px 11px 11px 16px;
+        }
+
+        .msg-bottom {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          margin-top: 8px;
+
+          .f-profile {
+            height: 30px;
+            min-width: 30px;
+            border-radius: 50%;
+            background-color: var(--dashboard-primary);
+            position: relative;
+
+            .s-profile {
+              height: 30px;
+              min-width: 30px;
+              border-radius: 50%;
+              background-color: var(--dashboard-primary);
+              position: absolute;
+              left: 0;
+            }
+          }
+        }
+      }
+
+      &:last-child {
+        border-bottom: unset;
+      }
+    }
+  }
+
+  .gist-detail-block::-webkit-scrollbar {
+    width: 5px;
+    background-color: white;
+  }
+
+  .gist-detail-block::-webkit-scrollbar-thumb {
+    background: white;
+  }
+
+  .post-list::-webkit-scrollbar {
+    width: 5px;
+    background-color: white;
+  }
+
+  .post-list::-webkit-scrollbar-thumb {
+    background: white;
+  }
+
+  .post-container {
+    height: 80vh;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .post-container {
+      height: 0;
+    }
+  }
+}

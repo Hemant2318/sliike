@@ -1,0 +1,13 @@
+#google-input-container {
+  .google-input-block {
+    input {
+      width: -webkit-fill-available;
+      height: 48px;
+      background: #ffffff;
+      border: 1px solid #414141;
+      border-radius: 5px;
+      padding-left: 20px;
+      color: black !important;
+    }
+  }
+}

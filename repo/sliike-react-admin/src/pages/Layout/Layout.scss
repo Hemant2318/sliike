@@ -1,0 +1,18 @@
+#layout-container {
+  height: 100vh;
+
+  .pointer {
+    cursor: pointer;
+  }
+
+  #right-side-block {
+    width: calc(100% - 236px);
+    background: #fafafa;
+  }
+
+  .sliike-body {
+    padding-top: 10px;
+    height: calc(100% - 86px);
+    overflow: auto;
+  }
+}

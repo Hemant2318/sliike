@@ -1,0 +1,3 @@
+admin-web:- Main Production repo
+sliike-admin-server:- Client repo
+sliike-react-admin:- Local repo

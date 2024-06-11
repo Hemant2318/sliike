@@ -1,0 +1,21 @@
+#service-details-container {
+    #service-chart-container {
+        .financial-summary:nth-child(10) {
+            border-top: 1px solid #dee2e6;
+            padding-top: 10px;
+
+        }
+
+        .top-service-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+    }
+
+    .bar-chart-card {
+        background: #FFFFFF;
+        border: 1px solid #E7E7E7;
+        border-radius: 5px;
+    }
+}

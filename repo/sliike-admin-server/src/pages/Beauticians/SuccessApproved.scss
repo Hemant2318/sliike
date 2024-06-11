@@ -1,0 +1,13 @@
+#success-approved-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .success-approved-box {
+        width: 50%;
+        height: 50%;
+        box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        text-align: center;
+    }
+}

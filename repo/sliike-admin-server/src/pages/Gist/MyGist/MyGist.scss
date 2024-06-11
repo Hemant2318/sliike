@@ -1,0 +1,53 @@
+#my-gist-container {
+  .my-gist-list {
+    margin-top: 10px;
+    .chat-item {
+      display: flex;
+      gap: 24px;
+      border-bottom: 1px solid #cfcfcf;
+      padding-bottom: 16px;
+      margin-top: 24px;
+      .profile-message-block {
+        display: flex;
+        gap: 16px;
+        .profile-block {
+          height: 50px;
+          min-width: 50px;
+          border-radius: 50%;
+          background-color: var(--dashboard-primary);
+        }
+        .message-block {
+          background: #132c4e;
+          border-radius: 2px 20px;
+          padding: 16px 11px 11px 16px;
+          color: #ffffff;
+        }
+        .msg-bottom {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 8px;
+          .f-profile {
+            height: 30px;
+            min-width: 30px;
+            border-radius: 50%;
+            background-color: var(--dashboard-primary);
+            position: relative;
+            .s-profile {
+              height: 30px;
+              min-width: 30px;
+              border-radius: 50%;
+              background-color: var(--dashboard-primary);
+              position: absolute;
+              left: 0;
+            }
+          }
+        }
+      }
+
+      // &:last-child {
+      //   border-bottom: unset;
+      // }
+    }
+  }
+}

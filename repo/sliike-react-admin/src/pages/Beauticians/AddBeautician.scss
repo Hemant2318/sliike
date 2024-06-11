@@ -1,0 +1,21 @@
+#add-beautician-container {
+    max-height: 823px;
+
+    .desc-block {
+        max-width: 393px;
+        display: flex;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        border: 1px solid #E2E5E8;
+        border-radius: 10px;
+        background-color: #EEEFF0;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 180%;
+        letter-spacing: 0.225px;
+    }
+}

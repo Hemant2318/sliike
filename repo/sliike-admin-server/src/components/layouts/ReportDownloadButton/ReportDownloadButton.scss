@@ -1,0 +1,50 @@
+#report-download-button {
+    @mixin btn-style($bg-color, $color) {
+        background-color: $bg-color;
+        color: $color;
+    }
+
+    .disabled-dark {
+        @include btn-style(var(--black-20), var(--white));
+    }
+
+    .primary-dark {
+        @include btn-style(var(--primary), var(--white));
+    }
+
+    .primary-outline {
+        @include btn-style(var(--white), var(--primary));
+        border: 1px solid var(--primary);
+    }
+
+    .primary-lignt-outline {
+        @include btn-style(var(--white), var(--primary));
+        border: 1px solid var(--blue-60);
+    }
+
+    .black-outline {
+        @include btn-style(var(--white), var(--black));
+        border: 1px solid var(--black);
+    }
+
+    .black-disabled-dark {
+        @include btn-style(var(--black-40), var(--white));
+    }
+
+    .gray-outline {
+        @include btn-style(var(--white), var(--gray));
+        border: 1px solid var(--gray);
+    }
+
+    .delete-orange {
+        @include btn-style(var(--orange), var(--white));
+    }
+
+    .blue-dark {
+        @include btn-style(var(--blue-10), var(--primary));
+    }
+
+    .primary-white {
+        @include btn-style(var(--white), var(--primary))
+    }
+}

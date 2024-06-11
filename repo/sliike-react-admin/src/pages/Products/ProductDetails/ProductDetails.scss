@@ -1,0 +1,9 @@
+#product-detail-container {
+    #detail-chart-container {
+        .top-service-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+#discount-container {
+    display: flex;
+    justify-content: center;
+    // margin-top: 130px;
+
+    .discount-block {
+        max-width: 329px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin: auto;
+
+        .add-new-discount {
+            width: 80px;
+            height: 80px;
+            border: 1px #cfcfcf dashed;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        .recent-new-discount {
+            width: 80px;
+            height: 80px;
+            border: 1px #cfcfcf solid;
+            border-radius: 10px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
